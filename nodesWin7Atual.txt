@@ -1,0 +1,14 @@
+instalando o node js no windows 7
+
+O método de solução alternativa (para versões mencionadas acima)
+A ramificação v12.x parece continuar dando suporte ao Win7 (testado em 2021 com o Node v12.22.7).
+
+Mas eu precisava do ramal da versão 14.x e acabei resolvendo o problema;
+Acabei de instalar o Node 14.15.0, como:
+
+Ir para downloads de nós
+Baixe o Windows Binary (.zip) (32/64 bits)
+Extraia-o no diretório onde seu node está instalado 
+e diga sim para substituir todos os arquivos (lembre-se 
+que o zip vem com npm, que fica no node_modules/npmdiretório; 
+não copiei do zip porque já atualizei o npm antes de substituir os arquivos)
